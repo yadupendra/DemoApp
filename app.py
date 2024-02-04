@@ -25,7 +25,7 @@ nltk.download('wordnet', quiet=True)
 nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
 
-nlp = spacy.load("models/en_core_web_md")
+nlp = spacy.load("models/en_core_web_md/en_core_web_md-3.7.1")
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 def convert_numpy_floats(obj):
